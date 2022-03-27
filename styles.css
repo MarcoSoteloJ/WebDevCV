@@ -1,0 +1,32 @@
+body {
+  background-color: #262626;
+  color: #fff;
+}
+
+/* HeaderNavBar */
+
+.container-fluid {
+  padding: 0 15px;
+  background-color: #262626;
+}
+
+/* Title */
+
+.titulo1 {
+  height: 300px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+/* Title Buttons */
+
+.solid {
+  background-color: #5c6bcf;
+}
+
+.hollow {
+  color: #5c6bcf;
+  border-color: #5c6bcf;
+}
+
+/* skills */
