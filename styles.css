@@ -39,6 +39,21 @@ body {
   padding-top: 0.5rem;
 }
 
-ul li: :first-of-type {
-  list-style-type: <i class= "fa-solid fa-arrow-right" >;
+/* professional exp */
+
+.accordion-collapse,
+.accordion-button {
+  background-color: #262626;
+  text-align: left;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #5c6bcf;
+  background-color: #5c6bcf4d;
+  font-weight: bold;
+}
+
+.profesional-accordion {
+  padding: 0;
 }
