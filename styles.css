@@ -1,6 +1,7 @@
 body {
   background-color: #262626;
   color: #fff;
+  text-align: center;
 }
 
 /* HeaderNavBar */
@@ -30,3 +31,14 @@ body {
 }
 
 /* skills */
+
+.col-lg-4 {
+  border-width: thin;
+  border-style: solid;
+  text-align: left;
+  padding-top: 0.5rem;
+}
+
+ul li: :first-of-type {
+  list-style-type: <i class= "fa-solid fa-arrow-right" >;
+}
