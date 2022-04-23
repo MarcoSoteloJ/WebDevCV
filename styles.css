@@ -1,28 +1,44 @@
+h2 {
+  margin: 8rem 0 2rem;
+}
+
 body {
   background-color: #262626;
   color: #fff;
   text-align: center;
 }
 
-/* HeaderNavBar */
+a {
+  color: inherit;
+}
 
-.container-fluid {
-  padding: 0 15px;
+/* HeaderNavBar */
+.linea1, .accordion-item, .navbar {
+  margin: 0 40px;
+  padding: 0;
   background-color: #262626;
 }
 
-/* Title */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 
+/* Title */
 .titulo1 {
   height: 300px;
   text-align: center;
   padding-top: 120px;
 }
 
-/* Title Buttons */
 
+/* Title Buttons */
 .solid {
   background-color: #5c6bcf;
+}
+
+.solid:hover {
+  background-color: #fff
 }
 
 .hollow {
@@ -30,8 +46,12 @@ body {
   border-color: #5c6bcf;
 }
 
-/* skills */
+.hollow:hover {
+  border-color: #fff;
+  color: #fff
+}
 
+/* skills */
 .col-lg-4 {
   border-width: thin;
   border-style: solid;
@@ -39,8 +59,19 @@ body {
   padding-top: 0.5rem;
 }
 
-/* professional exp */
+.red {
+  color: #E31E71;
+}
 
+.green {
+  color: #01FFBB;
+}
+
+.blue {
+  color: #04ADFE;
+}
+
+/* professional experience */
 .accordion-collapse,
 .accordion-button {
   background-color: #262626;
@@ -55,5 +86,85 @@ body {
 }
 
 .profesional-accordion {
+  padding: 0;
+}
+
+/* Projects */
+.imagen {
+  aspect-ratio: 3/2;
+  justify-content: center;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card-body,
+.list-group-flush {
+  background-color: #2C2F334D;
+}
+
+.carousel-item {
+  padding: 0 30rem;
+  text-align: left;
+}
+
+/* Education */
+.textbox {
+  height: 200px;
+  overflow-y: scroll;
+  position: relative;
+  text-align: left;
+  border-left: solid 1px;
+  padding-left: 2rem
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #5c6bcf;
+  background-color: #262626;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.nav-link:hover{
+  color:#5c6bcf;
+}
+
+
+.linea1 {
+  justify-content: center;
+}
+
+/* About Me */
+.aboutmetxt{
+  text-align: center;
+  padding: 0 500px
+}
+
+/* Contact me */
+.icono {
+  margin: 4rem 1rem;
+}
+
+.correo {
+  font-family: "Merriweather";
+  font-size: 1.3rem;
+  color: #5c6bcf;
+  margin: 6rem .5rem;
+}
+
+/* Footer */
+.names {
+  color: #5c6bcf;
+}
+
+.footer {
+  border-top: .5rem solid #fff;
+  border-width: thin;
+  margin: 5% 0 0;
   padding: 0;
 }
