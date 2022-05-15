@@ -1,0 +1,7 @@
+document.getElementById('copy-text').onclick = function(){
+    navigator.clipboard.writeText(document.getElementById('contactMail').innerText)
+    .then(function(){
+        alert('Mail copied to clipboard !')
+    })
+
+}

@@ -8,8 +8,8 @@
   <title>Marco Web CV</title>
 
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
@@ -32,7 +32,7 @@
 
   <!-- Header NavBar -->
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <a class="navbar-brand" href="">Marco Sotelo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn solid btn-"> Download CV</button>
+            <a href="documents/testpdf.pdf" download="Marco Sotelo CV"><button type="button" class="btn solid btn-"> Download CV</button></a>
           </li>
         </ul>
       </div>
@@ -79,9 +79,8 @@
   <div id="home" class="titulo1">
     <h1>Hi I'm Marco</h1>
     <p>A chemical engineer learning web dev</p>
-    <a href="foto.jpg" download="true">Click para descargar</a>
-    <a href="documents/testpdf.pdf" download="true"><button type="button" class="btn solid btn-lg"> Download CV </button></a>
-    <button type="button" class="btn hollow btn-lg btn-outline">Contact Me</button>
+    <a href="documents/testpdf.pdf" download="Marco Sotelo CV"><button type="button" class="btn solid btn-lg"> Download CV </button></a>
+    <a href="#contact"><button type="button" class="btn hollow btn-lg btn-outline">Contact Me</button></a>
 
   </div>
 
@@ -100,33 +99,24 @@
 
     <h2>Skills and tools</h2>
     <div class="row linea1">
-      <div class="col-lg-4">
-        <p class="red"> Frontend </p>
-      </div>
-      <div class="col-lg-4">
-        <p class="green"> Backend </p>
-      </div>
-      <div class="col-lg-4">
-        <p class="blue"> Languages/Libraries </p>
-      </div>
-    </div>
-
-    <div class="row linea1">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-6">
+        <p class="red border-bottom"> Frontend </p>
+        <div>
         <p><i class="fa-solid fa-arrow-right red"></i> HTML </p><br>
         <p><i class="fa-solid fa-arrow-right red"></i> CSS </p><br>
         <p><i class="fa-solid fa-arrow-right red"></i> Bootstrap 5</p><br>
-
+        </div>
+     
       </div>
-
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-6">
+        <p class="green border-bottom"> Backend </p>
         <p><i class="fa-solid fa-arrow-right green"></i> Coming Soon </p><br>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 ">
+        <p class="blue border-bottom"> Languages/Libraries </p>
         <p><i class="fa-solid fa-arrow-right blue"></i> Javascript </p><br>
       </div>
-
     </div>
 
   </div>
@@ -151,8 +141,14 @@
             <strong>Process Engineer</strong> <br>
             <p> 2021 - Present</p>
             <ul>
-              <li> Llenadora</li>
-              <li> BIB </li>
+              <li> Monitor and Control of powdered milk canning lines </li>
+              <li> Troubleshooting of  powder transport, process  related and/or documental issues </li>
+              <li> Creation and execution of IQ , OQ and PQ</li>
+              <li> Lead for waste reduction projects, one leading to an increase in line savings by 150% </li>
+              <li> Traning of personel depending on process needs </li>
+              <li> Host for plant visitors such as Managers and Suppliers</li>
+              <li> Statistical Process Control</li>
+              <li> Optimization of equipment performance by finding the optimal operation parameters</li>
             </ul>
           </div>
         </div>
@@ -245,7 +241,7 @@
               <div class="card-body">
                 <h5 class="card-title">Web CV</h5>
                 <p class="card-subtitle">Front End Developer.</p>
-                <p>First ever project to build a Web Page using the skills aquired in the Web Development course</p>
+                <p>Creation of an Online CV using front end technologies</p>
               </div>
 
               <div class="card-body">
@@ -254,19 +250,28 @@
               </div>
 
               <div class="card-body">
-                <a href="#" class="card-link">Source Code</a>
-                <a href="#" class="card-link">Live Site</a>
+                <a href="https://github.com/MarcoSoteloJ/WebDevCV" class="card-link">Source Code</a>
+                <a href="https://marcosoteloj.github.io/WebDevCV/" class="card-link">Live Site</a>
               </div>
             </div>
           </div>
 
+          <div class="carousel-item ">
+            <div class="card" style="width: 46.62rem;">
+              <img src="images/comingsoon.jpg" class="card-img-top imagen" alt="fantasmitas">
+              <div class="card-body">
+                <h5 class="card-title">COMING SOON</h5>
+                <p class="card-subtitle">More projects coming soon</p>
+                <p></p>
+              </div>
 
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            
+            </div>
+
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+
+
+          
         </div>
 
         <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
@@ -296,7 +301,7 @@
 
           <nav id="edulist" class="nav flex-column nav-pills">
             <a class="nav-link active " aria-current="page" href="#list-item-1">Udemy</a>
-            <a class="nav-link edulink" href="#list-item-2">Bacherlors</a></a>
+            <a class="nav-link edulink" href="#list-item-2">Bacherlors</a>
             <a class="nav-link edulink" href="#list-item-3">Highschool</a>
           </nav>
 
@@ -307,7 +312,15 @@
 
             <h4 id="list-item-1">The Complete 2022 Web Development Bootcamp</h4>
             <p>2022-Present</p>
-            <p>Currently completing thecourse aquiring CSS , HTML and Javascript skills </p>
+            <p> Currently learning Basic Web Development Technologies :</p>
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Git</li>
+
+
+            </ul>
 
             <h4 id="list-item-2">Universidad Autonoma de Chihuahua</h4>
             <p>2010-2015</p>
@@ -320,6 +333,11 @@
             <p></p>
             <h4 id="list-item-3">Preparatoria Activo 2030</h4>
             <p>2007-2010</p>
+            <ul>
+              <li>Graduated from the Bilingual program , achieving a total of 1537 points in the final TOEFL test</li> 
+            </ul>
+            
+            
 
           </div>
         </div>
@@ -329,16 +347,14 @@
     </div>
 
 
-
-
-
-
     <!-- About Me -->
 
     <div class="container">
       <h2 id="aboutme">About Me</h2>
-      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="aboutmetxt"> I am currently a  Process Enginner for Mead Johnson with experience in troubleshooting computers and processes. I love new challenges and i am always looking to improve myself in the personal and professional ambit  using my fast learning and adaptation skills  , which have lead me to increase savings in production lines and comply with user needs to continue the operation of the business.
+          Im am currently looking for new and exciting opportunities into the Tech Industry
+      
+      </p>
     </div>
 
     <!-- Contact Me -->
@@ -349,7 +365,10 @@
 
     <p>A chemical Enginner lookign for web dev oportunities</p>
 
-    <a class="correo" href="mailto:marcosoteloj@gmail.com"> marcosoteloj@gmail.com</a><button type="button" class="btn btn-sm solid"> Copy <i class="fa-solid fa-clipboard"></i></button><br>
+    <a class="correo" href="mailto:marcosoteloj@gmail.com" id="contactMail">marcosoteloj@gmail.com</a> 
+    <button id="copy-text" type="button" class="btn btn-sm solid"> Copy <i class="fa-solid fa-clipboard"></i></button><br>
+    <script src="Js/copytext"></script>
+
 
     <a href="https://github.com/MarcoSoteloJ"> <i class="icono fa-brands fa-github icon fa-2xl "></i></a>
     <a href="https://www.linkedin.com/in/marcosoteloj/"> <i class="icono fa-brands  fa-linkedin icon fa-2xl "></i></a>

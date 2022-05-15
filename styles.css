@@ -13,6 +13,7 @@ a {
 }
 
 /* HeaderNavBar */
+
 .linea1, .accordion-item, .navbar {
   margin: 0 40px;
   padding: 0;
@@ -25,6 +26,7 @@ a {
 }
 
 /* Title */
+
 .titulo1 {
   height: 300px;
   text-align: center;
@@ -33,6 +35,7 @@ a {
 
 
 /* Title Buttons */
+
 .solid {
   background-color: #5c6bcf;
 }
@@ -46,18 +49,31 @@ a {
   border-color: #5c6bcf;
 }
 
+.btn{ 
+  margin: 0 0.5rem;
+} 
+
 .hollow:hover {
   border-color: #fff;
   color: #fff
 }
 
 /* skills */
+
 .col-lg-4 {
   border-width: thin;
   border-style: solid;
   text-align: left;
-  padding-top: 0.5rem;
+  padding: .5rem 0;
+
 }
+
+.border-bottom , .fa-solid{
+  padding-left: 0.5rem ;
+  padding-bottom: 0.5rem;
+}
+
+
 
 .red {
   color: #E31E71;
@@ -71,7 +87,8 @@ a {
   color: #04ADFE;
 }
 
-/* professional experience */
+/* Professional experience */
+
 .accordion-collapse,
 .accordion-button {
   background-color: #262626;
@@ -90,6 +107,7 @@ a {
 }
 
 /* Projects */
+
 .imagen {
   aspect-ratio: 3/2;
   justify-content: center;
@@ -107,11 +125,20 @@ a {
 }
 
 .carousel-item {
-  padding: 0 30rem;
+  padding: 0 10rem;
   text-align: left;
 }
 
+.card-link{
+  color: #5c6bcf
+}
+
+.card-link:hover{
+  color: #fff;
+}
+
 /* Education */
+
 .textbox {
   height: 200px;
   overflow-y: scroll;
@@ -140,14 +167,20 @@ a {
 }
 
 /* About Me */
+
 .aboutmetxt{
   text-align: center;
-  padding: 0 500px
+  padding: 0 250px;
 }
 
 /* Contact me */
+
 .icono {
   margin: 4rem 1rem;
+}
+
+.icono:hover{
+  color: #5c6bcf;
 }
 
 .correo {
@@ -157,7 +190,14 @@ a {
   margin: 6rem .5rem;
 }
 
+.correo:hover{
+  color: #fff;
+}
+
+
+
 /* Footer */
+
 .names {
   color: #5c6bcf;
 }
